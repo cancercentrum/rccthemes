@@ -3,6 +3,8 @@
 
 # rccthemes
 
+[![Travis build
+status](https://travis-ci.org/oc1lojo/rccthemes.svg?branch=master)](https://travis-ci.org/oc1lojo/rccthemes)
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/github/oc1lojo/rccthemes?branch=master&svg=true)](https://ci.appveyor.com/project/oc1lojo/rccthemes)
 
