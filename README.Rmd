@@ -37,7 +37,7 @@ Namnet är inspirerat av [ggthemes](https://cran.r-project.org/package=ggthemes)
 
 ```{r, eval = FALSE}
 # install.packages("devtools")
-devtools::install_bitbucket("oc1lojo/rccthemes")
+devtools::install_bitbucket("oc1lojo/rccthemes", build_op = NULL)
 ```
 
 ## Usage
