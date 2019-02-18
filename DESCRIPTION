@@ -1,0 +1,24 @@
+Package: rccthemes
+Title: RCC Themes, Scales and Geoms for 'ggplot2'
+Version: 0.0.0.9001
+Authors@R: c(
+    person("John", "Lövrot", , "john.lovrot@sll.se", c("aut", "cre"), c(ORCID = "0000-0002-9339-8059")),
+    person("Hadley", "Wickham", role = c("ctb"), comment = "code from the ggplot2 and scales packages"),    
+    person("RCC", role = c("fnd")) # also cph?
+    )
+Description: 
+    The longterm goal is to provide 'ggplot2' themes, scales and geoms that 
+    adhere to the graphic rules at Regional Cancer Centers (RCC) in Sweden. 
+    Currently, RCC scales are implemented.
+License: GPL-2
+URL: http://bitbucket.org/oc1lojo/rccthemes
+Depends:
+    R (>= 3.0.0)
+Imports:
+    ggplot2 (>= 3.0.0)
+Suggests:
+    scales
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)
