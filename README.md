@@ -3,6 +3,9 @@
 
 # rccthemes
 
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/oc1lojo/rccthemes?branch=master&svg=true)](https://ci.appveyor.com/project/oc1lojo/rccthemes)
+
 RCC themes, scales and geoms for
 [ggplot2](https://ggplot2.tidyverse.org).
 
@@ -17,7 +20,7 @@ R-paketen på RCC, <https://bitbucket.org/cancercentrum/> </mark>
 <mark> John Lövrot, 2019-02-18:  
 På RCC använder jag främst ggplot när jag vill göra initiala
 utforskningar av dataset eller snabba sammanställningar. För final
-publikation/produktion på t.ex. INCA används oft mer skräddarsydda
+publikation/produktion på t.ex. INCA används ofta mer skräddarsydda
 funktioner. </mark>
 
 <mark> Namnet är inspirerat av

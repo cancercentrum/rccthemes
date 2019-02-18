@@ -14,6 +14,8 @@ knitr::opts_chunk$set(
 
 # rccthemes
 
+[![AppVeyor build status](https://ci.appveyor.com/api/projects/status/github/oc1lojo/rccthemes?branch=master&svg=true)](https://ci.appveyor.com/project/oc1lojo/rccthemes)
+
 RCC themes, scales and geoms for [ggplot2](https://ggplot2.tidyverse.org).
 
 The longterm goal is to provide ggplot2 themes, scales and geoms that adhere to the graphic rules at Regional Cancer Centers (RCC) in Sweden. 
@@ -26,7 +28,7 @@ Man kan tänka sig att denna funktionalitet ligger i ett eget paket, såsom dett
 <mark>
 John Lövrot, 2019-02-18:  
 På RCC använder jag främst ggplot när jag vill göra initiala utforskningar av dataset eller snabba sammanställningar. 
-För final publikation/produktion på t.ex. INCA används oft mer skräddarsydda funktioner. 
+För final publikation/produktion på t.ex. INCA används ofta mer skräddarsydda funktioner. 
 </mark>
 
 <mark>
