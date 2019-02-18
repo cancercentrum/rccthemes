@@ -40,10 +40,11 @@ library(ggplot2)
 library(rccthemes)
 
 theme_set(theme_minimal())
+scale_colour_discrete <- scale_colour_rcc
+scale_fill_discrete <- scale_fill_rcc
 
 ggplot(mpg, aes(displ, hwy, colour = class)) +
-  geom_point() +
-  scale_colour_rcc()
+  geom_point()
 ```
 
 ![](man/figures/README-example-1.png)<!-- -->
