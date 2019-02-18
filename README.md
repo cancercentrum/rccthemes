@@ -3,6 +3,9 @@
 
 # rccthemes
 
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/oc1lojo/rccthemes?branch=master&svg=true)](https://ci.appveyor.com/project/oc1lojo/rccthemes)
+
 RCC themes, scales and geoms for
 [ggplot2](https://ggplot2.tidyverse.org).
 
