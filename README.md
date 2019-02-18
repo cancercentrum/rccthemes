@@ -27,7 +27,7 @@ funktioner. </mark>
 
 ``` r
 # install.packages("devtools")
-devtools::install_bitbucket("oc1lojo/rccthemes2")
+devtools::install_bitbucket("oc1lojo/rccthemes")
 ```
 
 ## Usage
