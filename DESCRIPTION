@@ -1,6 +1,6 @@
 Package: rccthemes
 Title: RCC Themes, Scales and Geoms for 'ggplot2'
-Version: 0.0.0.9004
+Version: 0.0.0.9005
 Authors@R: c(
     person("John", "Lövrot", , "john.lovrot@sll.se", c("aut", "cre"), c(ORCID = "0000-0002-9339-8059")),
     person("Hadley", "Wickham", role = c("ctb"), comment = "code from the ggplot2 and scales packages"),    
