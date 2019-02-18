@@ -17,7 +17,7 @@ R-paketen på RCC, <https://bitbucket.org/cancercentrum/> </mark>
 <mark> John Lövrot, 2019-02-18:  
 På RCC använder jag främst ggplot när jag vill göra initiala
 utforskningar av dataset eller snabba sammanställningar. För final
-publikation/produktion på t.ex. INCA används oft mer skräddarsydda
+publikation/produktion på t.ex. INCA används ofta mer skräddarsydda
 funktioner. </mark>
 
 <mark> Namnet är inspirerat av

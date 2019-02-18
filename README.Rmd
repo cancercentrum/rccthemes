@@ -26,7 +26,7 @@ Man kan tänka sig att denna funktionalitet ligger i ett eget paket, såsom dett
 <mark>
 John Lövrot, 2019-02-18:  
 På RCC använder jag främst ggplot när jag vill göra initiala utforskningar av dataset eller snabba sammanställningar. 
-För final publikation/produktion på t.ex. INCA används oft mer skräddarsydda funktioner. 
+För final publikation/produktion på t.ex. INCA används ofta mer skräddarsydda funktioner. 
 </mark>
 
 <mark>
