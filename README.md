@@ -15,10 +15,6 @@ The longterm goal is to provide ggplot2 themes, scales and geoms that
 adhere to the graphic rules at Regional Cancer Centers (RCC) in Sweden.
 Currently, RCC scales are implemented.
 
-<mark> Man kan tänka sig att denna funktionalitet ligger i ett eget
-paket, såsom detta, eller kanske som en del av något av befintliga
-R-paketen på RCC, <https://bitbucket.org/cancercentrum/> </mark>
-
 <mark> John Lövrot, 2019-02-18:  
 På RCC använder jag främst ggplot när jag vill göra initiala
 utforskningar av dataset eller snabba sammanställningar. För final
@@ -32,7 +28,7 @@ funktioner. </mark>
 
 ``` r
 # install.packages("devtools")
-devtools::install_bitbucket("oc1lojo/rccthemes", build_op = NULL)
+devtools::install_bitbucket("cancercentrum/rccthemes", build_op = NULL)
 ```
 
 ## Usage
