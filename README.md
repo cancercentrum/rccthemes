@@ -41,7 +41,7 @@ devtools::install_bitbucket("oc1lojo/rccthemes", build_op = NULL)
 library(ggplot2)
 library(rccthemes)
 
-theme_set(theme_minimal())
+theme_set(theme_minimal()) # ggplot2::theme_minimal, not an RCC theme
 scale_colour_discrete <- scale_colour_rcc
 scale_fill_discrete <- scale_fill_rcc
 
