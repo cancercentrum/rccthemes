@@ -24,7 +24,7 @@ library(ggplot2)
 library(rccthemes)
 ```
 
-# RCC-palett
+# RCC-paletten
 
 Visa färgerna i paletten.
 

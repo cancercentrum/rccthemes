@@ -1,6 +1,6 @@
 Package: rccthemes
 Title: RCC Themes, Scales and Geoms for 'ggplot2'
-Version: 0.2.2
+Version: 0.2.3
 Authors@R: c(
     person("John", "Lövrot", , "john.lovrot@sll.se", c("aut", "cre"), c(ORCID = "0000-0002-9339-8059")),
     person("Hadley", "Wickham", role = c("ctb"), comment = "code from the ggplot2 and scales packages"),    
@@ -11,7 +11,8 @@ Description:
     adhere to the graphic rules at Regional Cancer Centers (RCC) in Sweden. 
     Currently, RCC scales are implemented.
 License: GPL-2
-URL: http://bitbucket.org/cancercentrum/rccthemes
+URL: https://cancercentrum.bitbucket.io/rccthemes/, http://bitbucket.org/cancercentrum/rccthemes
+BugReports: https://bitbucket.org/cancercentrum/rccthemes/issues
 Depends:
     R (>= 3.0.0)
 Imports:
