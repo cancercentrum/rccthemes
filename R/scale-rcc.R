@@ -18,16 +18,16 @@
 #' library(ggplot2)
 #' library(rccthemes)
 #' theme_set(theme_minimal())
-#' 
+#'
 #' # Example of using the RCC scale for the esthetic colour
 #' ggplot(mpg, aes(x = displ, y = hwy, colour = class)) +
 #'   geom_point() +
 #'   scale_colour_rcc()
-#' 
+#'
 #' # Example of using the RCC scale for the esthetic fill
 #' g <- ggplot(mpg, aes(x = class, fill = drv)) +
 #'   geom_bar()
-#' 
+#'
 #' g + scale_fill_rcc()
 #' g + scale_fill_rcc(direction = -1)
 scale_colour_rcc <- function(..., aesthetics = "colour", direction = 1, na.value = "grey50") {
