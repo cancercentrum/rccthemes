@@ -63,7 +63,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">rccthemes</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.2</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.3.1</span>
       </span>
     </div>
 
@@ -128,7 +128,7 @@
     <colgroup><col class="name" /><col class="desc" /></colgroup>
     <tr>
       <th>...</th>
-      <td><p>Other arguments passed on to <code><a href='https://ggplot2.tidyverse.org/reference/discrete_scale.html'>ggplot2::discrete_scale()</a></code> to
+      <td><p>Other arguments passed on to <code><a href='https://www.rdocumentation.org/packages/ggplot2/topics/discrete_scale'>ggplot2::discrete_scale()</a></code> to
 control name, limits, breaks, labels and so forth.</p></td>
     </tr>
     <tr>
@@ -158,15 +158,15 @@ colours is reversed.</p></td>
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'><span class='fu'><a href='https://www.rdocumentation.org/packages/base/topics/library'>library</a></span>(<span class='no'>ggplot2</span>)
 <span class='fu'><a href='https://www.rdocumentation.org/packages/base/topics/library'>library</a></span>(<span class='no'>rccthemes</span>)
-<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/theme_get.html'>theme_set</a></span>(<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggtheme.html'>theme_minimal</a></span>())
+<span class='fu'><a href='https://www.rdocumentation.org/packages/ggplot2/topics/theme_get'>theme_set</a></span>(<span class='fu'><a href='https://www.rdocumentation.org/packages/ggplot2/topics/ggtheme'>theme_minimal</a></span>())
 
 <span class='co'># Example of using the RCC scale for the esthetic colour</span>
-<span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span>(<span class='no'>mpg</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span>(<span class='kw'>x</span> <span class='kw'>=</span> <span class='no'>displ</span>, <span class='kw'>y</span> <span class='kw'>=</span> <span class='no'>hwy</span>, <span class='kw'>colour</span> <span class='kw'>=</span> <span class='no'>class</span>)) +
-  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_point.html'>geom_point</a></span>() +
+<span class='fu'><a href='https://www.rdocumentation.org/packages/ggplot2/topics/ggplot'>ggplot</a></span>(<span class='no'>mpg</span>, <span class='fu'><a href='https://www.rdocumentation.org/packages/ggplot2/topics/aes'>aes</a></span>(<span class='kw'>x</span> <span class='kw'>=</span> <span class='no'>displ</span>, <span class='kw'>y</span> <span class='kw'>=</span> <span class='no'>hwy</span>, <span class='kw'>colour</span> <span class='kw'>=</span> <span class='no'>class</span>)) +
+  <span class='fu'><a href='https://www.rdocumentation.org/packages/ggplot2/topics/geom_point'>geom_point</a></span>() +
   <span class='fu'>scale_colour_rcc</span>()</div><div class='img'><img src='scale_rcc-1.png' alt='' width='700' height='433' /></div><div class='input'>
 <span class='co'># Example of using the RCC scale for the esthetic fill</span>
-<span class='no'>g</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/ggplot.html'>ggplot</a></span>(<span class='no'>mpg</span>, <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/aes.html'>aes</a></span>(<span class='kw'>x</span> <span class='kw'>=</span> <span class='no'>class</span>, <span class='kw'>fill</span> <span class='kw'>=</span> <span class='no'>drv</span>)) +
-  <span class='fu'><a href='https://ggplot2.tidyverse.org/reference/geom_bar.html'>geom_bar</a></span>()
+<span class='no'>g</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='https://www.rdocumentation.org/packages/ggplot2/topics/ggplot'>ggplot</a></span>(<span class='no'>mpg</span>, <span class='fu'><a href='https://www.rdocumentation.org/packages/ggplot2/topics/aes'>aes</a></span>(<span class='kw'>x</span> <span class='kw'>=</span> <span class='no'>class</span>, <span class='kw'>fill</span> <span class='kw'>=</span> <span class='no'>drv</span>)) +
+  <span class='fu'><a href='https://www.rdocumentation.org/packages/ggplot2/topics/geom_bar'>geom_bar</a></span>()
 
 <span class='no'>g</span> + <span class='fu'>scale_fill_rcc</span>()</div><div class='img'><img src='scale_rcc-2.png' alt='' width='700' height='433' /></div><div class='input'><span class='no'>g</span> + <span class='fu'>scale_fill_rcc</span>(<span class='kw'>direction</span> <span class='kw'>=</span> -<span class='fl'>1</span>)</div><div class='img'><img src='scale_rcc-3.png' alt='' width='700' height='433' /></div></pre>
   </div>

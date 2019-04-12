@@ -12,14 +12,16 @@ RCC themes, scales and geoms for
 [ggplot2](https://ggplot2.tidyverse.org).
 
 The longterm goal is to provide ggplot2 themes, scales and geoms that
-adhere to the graphic rules at Regional Cancer Centers (RCC) in Sweden.
-Currently, RCC scales are implemented.
+adhere to the graphic rules at [Regional Cancer Centers
+(RCC)](https://www.cancercentrum.se) in Sweden. Currently, RCC scales
+are implemented.
 
 ## Installation
 
 ``` r
 # install.packages("devtools")
-devtools::install_bitbucket("cancercentrum/rccthemes", build_op = NULL)
+devtools::install_bitbucket("cancercentrum/rccthemes")
+# devtools::install_bitbucket("cancercentrum/rccthemes", build_op = NULL) # also vignette
 ```
 
 ## Usage

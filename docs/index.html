@@ -33,7 +33,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="index.html">rccthemes</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.2.2</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.3.1</span>
       </span>
     </div>
 
@@ -82,12 +82,13 @@
 <a href="#rccthemes" class="anchor"></a>rccthemes</h1></div>
 
 <p>RCC themes, scales and geoms for <a href="https://ggplot2.tidyverse.org">ggplot2</a>.</p>
-<p>The longterm goal is to provide ggplot2 themes, scales and geoms that adhere to the graphic rules at Regional Cancer Centers (RCC) in Sweden. Currently, RCC scales are implemented.</p>
+<p>The longterm goal is to provide ggplot2 themes, scales and geoms that adhere to the graphic rules at <a href="https://www.cancercentrum.se">Regional Cancer Centers (RCC)</a> in Sweden. Currently, RCC scales are implemented.</p>
 <div id="installation" class="section level2">
 <h2 class="hasAnchor">
 <a href="#installation" class="anchor"></a>Installation</h2>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb1-1" title="1"><span class="co"># install.packages("devtools")</span></a>
-<a class="sourceLine" id="cb1-2" title="2">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_bitbucket</a></span>(<span class="st">"cancercentrum/rccthemes"</span>, <span class="dt">build_op =</span> <span class="ot">NULL</span>)</a></code></pre></div>
+<a class="sourceLine" id="cb1-2" title="2">devtools<span class="op">::</span><span class="kw"><a href="https://www.rdocumentation.org/packages/devtools/topics/reexports">install_bitbucket</a></span>(<span class="st">"cancercentrum/rccthemes"</span>)</a>
+<a class="sourceLine" id="cb1-3" title="3"><span class="co"># devtools::install_bitbucket("cancercentrum/rccthemes", build_op = NULL) # also vignette</span></a></code></pre></div>
 </div>
 <div id="usage" class="section level2">
 <h2 class="hasAnchor">
@@ -95,19 +96,26 @@
 <div class="sourceCode" id="cb2"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb2-1" title="1"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(ggplot2)</a>
 <a class="sourceLine" id="cb2-2" title="2"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(rccthemes)</a>
 <a class="sourceLine" id="cb2-3" title="3"></a>
-<a class="sourceLine" id="cb2-4" title="4"><span class="kw">theme_set</span>(<span class="kw">theme_minimal</span>()) <span class="co"># ggplot2::theme_minimal, not an RCC theme</span></a>
+<a class="sourceLine" id="cb2-4" title="4"><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/theme_get">theme_set</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/ggtheme">theme_minimal</a></span>()) <span class="co"># ggplot2::theme_minimal, not an RCC theme</span></a>
 <a class="sourceLine" id="cb2-5" title="5">scale_colour_discrete &lt;-<span class="st"> </span>scale_colour_rcc</a>
 <a class="sourceLine" id="cb2-6" title="6">scale_fill_discrete &lt;-<span class="st"> </span>scale_fill_rcc</a>
 <a class="sourceLine" id="cb2-7" title="7"></a>
-<a class="sourceLine" id="cb2-8" title="8"><span class="kw">ggplot</span>(mpg, <span class="kw">aes</span>(displ, hwy, <span class="dt">colour =</span> class)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb2-9" title="9"><span class="st">  </span><span class="kw">geom_point</span>()</a></code></pre></div>
+<a class="sourceLine" id="cb2-8" title="8"><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/ggplot">ggplot</a></span>(mpg, <span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/aes">aes</a></span>(displ, hwy, <span class="dt">colour =</span> class)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb2-9" title="9"><span class="st">  </span><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/geom_point">geom_point</a></span>()</a></code></pre></div>
 <p><img src="reference/figures/README-example-1.png" width="700"></p>
 </div>
 </div>
   </div>
 
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
-    <div class="license">
+    <div class="links">
+<h2>Links</h2>
+<ul class="list-unstyled">
+<li>Report a bug at <br><a href="https://bitbucket.org/cancercentrum/rccthemes/issues">https://​bitbucket.org/​cancercentrum/​rccthemes/​issues</a>
+</li>
+</ul>
+</div>
+<div class="license">
 <h2>License</h2>
 <ul class="list-unstyled">
 <li><a href="https://www.r-project.org/Licenses/GPL-2">GPL-2</a></li>
