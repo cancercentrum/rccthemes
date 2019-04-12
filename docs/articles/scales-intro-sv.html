@@ -30,7 +30,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">rccthemes</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.3.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.3.1</span>
       </span>
     </div>
 
@@ -98,27 +98,27 @@
 <h2 class="hasAnchor">
 <a href="#scale_colour_rcc" class="anchor"></a>scale_colour_rcc</h2>
 <p>Exempel på använding av standardskalan för estetiken färg (<code>colour</code>).</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1">p1 &lt;-<span class="st"> </span><span class="kw">ggplot</span>(mpg, <span class="kw">aes</span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy, <span class="dt">colour =</span> class)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb3-2" title="2"><span class="st">  </span><span class="kw">geom_point</span>()</a>
+<div class="sourceCode" id="cb3"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb3-1" title="1">p1 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/ggplot">ggplot</a></span>(mpg, <span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/aes">aes</a></span>(<span class="dt">x =</span> displ, <span class="dt">y =</span> hwy, <span class="dt">colour =</span> class)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb3-2" title="2"><span class="st">  </span><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/geom_point">geom_point</a></span>()</a>
 <a class="sourceLine" id="cb3-3" title="3">p1</a></code></pre></div>
 <p><img src="scales-intro-sv_files/figure-html/unnamed-chunk-3-1.png" width="576" style="display: block; margin: auto;"></p>
 <p>Använd RCC-skalan.</p>
-<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1">p1 <span class="op">+</span><span class="st"> </span><span class="kw">theme_minimal</span>() <span class="op">+</span><span class="st"> </span><span class="kw"><a href="../reference/scale_rcc.html">scale_colour_rcc</a></span>()</a></code></pre></div>
+<div class="sourceCode" id="cb4"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb4-1" title="1">p1 <span class="op">+</span><span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/ggtheme">theme_minimal</a></span>() <span class="op">+</span><span class="st"> </span><span class="kw"><a href="../reference/scale_rcc.html">scale_colour_rcc</a></span>()</a></code></pre></div>
 <p><img src="scales-intro-sv_files/figure-html/unnamed-chunk-4-1.png" width="576" style="display: block; margin: auto;"></p>
 </div>
 <div id="scale_fill_rcc" class="section level2">
 <h2 class="hasAnchor">
 <a href="#scale_fill_rcc" class="anchor"></a>scale_fill_rcc</h2>
 <p>Exempel på använding av standardskalan för estetiken fyllning (<code>fill</code>).</p>
-<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1">p2 &lt;-<span class="st"> </span><span class="kw">ggplot</span>(mpg, <span class="kw">aes</span>(<span class="dt">x =</span> class, <span class="dt">fill =</span> drv)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb5-2" title="2"><span class="st">  </span><span class="kw">geom_bar</span>()</a>
+<div class="sourceCode" id="cb5"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb5-1" title="1">p2 &lt;-<span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/ggplot">ggplot</a></span>(mpg, <span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/aes">aes</a></span>(<span class="dt">x =</span> class, <span class="dt">fill =</span> drv)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb5-2" title="2"><span class="st">  </span><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/geom_bar">geom_bar</a></span>()</a>
 <a class="sourceLine" id="cb5-3" title="3"></a>
 <a class="sourceLine" id="cb5-4" title="4">p2</a></code></pre></div>
 <p><img src="scales-intro-sv_files/figure-html/unnamed-chunk-5-1.png" width="576" style="display: block; margin: auto;"></p>
 <p>Använd RCC-skalan.</p>
-<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1">p2 <span class="op">+</span><span class="st"> </span><span class="kw">theme_minimal</span>() <span class="op">+</span><span class="st"> </span><span class="kw"><a href="../reference/scale_rcc.html">scale_fill_rcc</a></span>()</a></code></pre></div>
+<div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1">p2 <span class="op">+</span><span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/ggtheme">theme_minimal</a></span>() <span class="op">+</span><span class="st"> </span><span class="kw"><a href="../reference/scale_rcc.html">scale_fill_rcc</a></span>()</a></code></pre></div>
 <p><img src="scales-intro-sv_files/figure-html/unnamed-chunk-6-1.png" width="576" style="display: block; margin: auto;"></p>
-<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" title="1">p2 <span class="op">+</span><span class="st"> </span><span class="kw">theme_minimal</span>() <span class="op">+</span><span class="st"> </span><span class="kw"><a href="../reference/scale_rcc.html">scale_fill_rcc</a></span>(<span class="dt">direction =</span> <span class="dv">-1</span>)</a></code></pre></div>
+<div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb7-1" title="1">p2 <span class="op">+</span><span class="st"> </span><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/ggtheme">theme_minimal</a></span>() <span class="op">+</span><span class="st"> </span><span class="kw"><a href="../reference/scale_rcc.html">scale_fill_rcc</a></span>(<span class="dt">direction =</span> <span class="dv">-1</span>)</a></code></pre></div>
 <p><img src="scales-intro-sv_files/figure-html/unnamed-chunk-6-2.png" width="576" style="display: block; margin: auto;"></p>
 </div>
 </div>
@@ -129,11 +129,11 @@
 <div class="sourceCode" id="cb8"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb8-1" title="1"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(ggplot2)</a>
 <a class="sourceLine" id="cb8-2" title="2"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(rccthemes)</a>
 <a class="sourceLine" id="cb8-3" title="3"></a>
-<a class="sourceLine" id="cb8-4" title="4"><span class="kw">theme_set</span>(<span class="kw">theme_minimal</span>()) <span class="co"># ggplot2::theme_minimal, inte ett RCC-tema</span></a>
+<a class="sourceLine" id="cb8-4" title="4"><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/theme_get">theme_set</a></span>(<span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/ggtheme">theme_minimal</a></span>()) <span class="co"># ggplot2::theme_minimal, inte ett RCC-tema</span></a>
 <a class="sourceLine" id="cb8-5" title="5">scale_colour_discrete &lt;-<span class="st"> </span>scale_colour_rcc</a>
 <a class="sourceLine" id="cb8-6" title="6">scale_fill_discrete &lt;-<span class="st"> </span>scale_fill_rcc</a></code></pre></div>
-<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" title="1"><span class="kw">ggplot</span>(mpg, <span class="kw">aes</span>(<span class="dt">x =</span> class, <span class="dt">fill =</span> drv)) <span class="op">+</span></a>
-<a class="sourceLine" id="cb9-2" title="2"><span class="st">  </span><span class="kw">geom_bar</span>()</a></code></pre></div>
+<div class="sourceCode" id="cb9"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb9-1" title="1"><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/ggplot">ggplot</a></span>(mpg, <span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/aes">aes</a></span>(<span class="dt">x =</span> class, <span class="dt">fill =</span> drv)) <span class="op">+</span></a>
+<a class="sourceLine" id="cb9-2" title="2"><span class="st">  </span><span class="kw"><a href="https://www.rdocumentation.org/packages/ggplot2/topics/geom_bar">geom_bar</a></span>()</a></code></pre></div>
 <p><img src="scales-intro-sv_files/figure-html/unnamed-chunk-8-1.png" width="576" style="display: block; margin: auto;"></p>
 </div>
   </div>

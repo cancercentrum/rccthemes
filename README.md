@@ -20,7 +20,8 @@ are implemented.
 
 ``` r
 # install.packages("devtools")
-devtools::install_bitbucket("cancercentrum/rccthemes", build_op = NULL)
+devtools::install_bitbucket("cancercentrum/rccthemes")
+# devtools::install_bitbucket("cancercentrum/rccthemes", build_op = NULL) # also vignette
 ```
 
 ## Usage
