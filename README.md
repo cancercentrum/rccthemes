@@ -19,9 +19,11 @@ are implemented.
 ## Installation
 
 ``` r
-# install.packages("devtools")
-devtools::install_bitbucket("cancercentrum/rccthemes")
-# devtools::install_bitbucket("cancercentrum/rccthemes", build_op = NULL) # also vignette
+if (!requireNamespace("remotes"))
+  install.packages("remotes")
+
+remotes::install_bitbucket("cancercentrum/rccthemes")
+# remotes::install_bitbucket("cancercentrum/rccthemes", build_vignettes = TRUE) # also vignette
 ```
 
 ## Usage

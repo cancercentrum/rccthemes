@@ -1,6 +1,6 @@
 Package: rccthemes
 Title: RCC Themes, Scales and Geoms for 'ggplot2'
-Version: 0.3.2
+Version: 0.3.3
 Authors@R: c(
     person("John", "Lövrot", , "john.lovrot@sll.se", c("aut", "cre"), c(ORCID = "0000-0002-9339-8059")),
     person("Hadley", "Wickham", role = c("ctb"), comment = "code from the ggplot2 and scales packages"),    
@@ -23,6 +23,6 @@ Suggests:
     rmarkdown
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.0.0
 Roxygen: list(markdown = TRUE)
 VignetteBuilder: knitr
