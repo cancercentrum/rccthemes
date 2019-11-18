@@ -6,11 +6,14 @@
 \alias{scale_color_rcc}
 \title{RCC colours for discrete data}
 \usage{
-scale_colour_rcc(..., aesthetics = "colour", direction = 1,
-  na.value = "grey50")
+scale_colour_rcc(
+  ...,
+  aesthetics = "colour",
+  direction = 1,
+  na.value = "grey50"
+)
 
-scale_fill_rcc(..., aesthetics = "fill", direction = 1,
-  na.value = "grey50")
+scale_fill_rcc(..., aesthetics = "fill", direction = 1, na.value = "grey50")
 }
 \arguments{
 \item{...}{Other arguments passed on to \code{\link[ggplot2:discrete_scale]{ggplot2::discrete_scale()}} to
