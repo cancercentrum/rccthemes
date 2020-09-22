@@ -5,7 +5,7 @@ rccthemes
 =========
 
 [![Travis build
-status](https://travis-ci.org/oc1lojo/rccthemes.svg?branch=master)](https://travis-ci.org/oc1lojo/rccthemes)
+status](https://travis-ci.com/oc1lojo/rccthemes.svg?branch=master)](https://travis-ci.com/oc1lojo/rccthemes)
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/qgkdgjy8rc8e60x7/branch/master?svg=true)](https://ci.appveyor.com/project/oc1lojo/rccthemes/branch/master)
 
