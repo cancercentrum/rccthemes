@@ -1,6 +1,3 @@
-
-<!-- README.md is generated from README.Rmd. Please edit that file. -->
-
 rccthemes
 =========
 
@@ -20,23 +17,29 @@ are implemented.
 Installation
 ------------
 
-    if (!requireNamespace("remotes"))
-      install.packages("remotes")
+``` {.r}
+if (!requireNamespace("remotes"))
+  install.packages("remotes")
 
-    remotes::install_bitbucket("cancercentrum/rccthemes")
-    # remotes::install_bitbucket("cancercentrum/rccthemes", build_vignettes = TRUE) # also vignette
+remotes::install_bitbucket("cancercentrum/rccthemes")
+# remotes::install_bitbucket("cancercentrum/rccthemes", build_vignettes = TRUE) # also vignette
+```
 
 Usage
 -----
 
-    library(ggplot2)
-    library(rccthemes)
+``` {.r}
+library(ggplot2)
+#> Warning: package 'ggplot2' was built under R version 3.6.3
+library(rccthemes)
+#> Warning: package 'rccthemes' was built under R version 3.6.3
 
-    theme_set(theme_minimal()) # ggplot2::theme_minimal, not an RCC theme
-    scale_colour_discrete <- scale_colour_rcc
-    scale_fill_discrete <- scale_fill_rcc
+theme_set(theme_minimal()) # ggplot2::theme_minimal, not an RCC theme
+scale_colour_discrete <- scale_colour_rcc
+scale_fill_discrete <- scale_fill_rcc
 
-    ggplot(mpg, aes(displ, hwy, colour = class)) +
-      geom_point()
+ggplot(mpg, aes(displ, hwy, colour = class)) +
+  geom_point()
+```
 
-![](man/figures/README-example-1.png)<!-- -->
+![](man/figures/README-example-1.png)
