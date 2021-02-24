@@ -17,8 +17,5 @@ RCC palette (discrete).
 \examples{
 library(scales)
 library(rccthemes)
-show_col(rcc_pal()(10))
-}
-\references{
-\url{https://bitbucket.org/cancercentrum/rccshiny/src/1.7.1/R/rcc2PlotLine.R#lines-120}
+show_col(rcc_pal()(12))
 }
