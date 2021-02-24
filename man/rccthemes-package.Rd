@@ -6,9 +6,10 @@
 \alias{rccthemes-package}
 \title{rccthemes: RCC Themes, Scales and Geoms for 'ggplot2'}
 \description{
-The longterm goal is to provide 'ggplot2' themes, scales and geoms that 
-    adhere to the graphic rules at Regional Cancer Centers (RCC) in Sweden. 
-    Currently, RCC scales are implemented.
+The longterm goal is to provide 'ggplot2'
+    themes, scales and geoms that adhere to the graphic rules at Regional
+    Cancer Centers (RCC) in Sweden.  Currently, RCC scales are
+    implemented.
 }
 \seealso{
 Useful links:
