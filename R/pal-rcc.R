@@ -5,7 +5,7 @@
 #' @param direction Sets the order of colours in the scale. If 1, the default,
 #'   colours are as the in RCC graphic profile. If -1, the order of
 #'   colours is reversed.
-#' @references <https://bitbucket.org/cancercentrum/rccshiny/src/11416e96246ed54c1b60497c20510ae842eb260a/R/fIndPlot.R?at=master&fileviewer=file-view-default#fIndPlot.R-291>
+#' @references <https://bitbucket.org/cancercentrum/rccshiny/src/1.7.1/R/rcc2PlotLine.R#lines-120>
 #' @export
 #' @examples
 #' library(scales)

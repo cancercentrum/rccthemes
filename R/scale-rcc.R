@@ -11,7 +11,7 @@
 #'   control name, limits, breaks, labels and so forth.
 #' @family colour scales
 #' @rdname scale_rcc
-#' @references <https://bitbucket.org/cancercentrum/rccshiny/src/11416e96246ed54c1b60497c20510ae842eb260a/R/fIndPlot.R?at=master&fileviewer=file-view-default#fIndPlot.R-291>
+#' @references <https://bitbucket.org/cancercentrum/rccshiny/src/1.7.1/R/rcc2PlotLine.R#lines-120>
 #' @export
 #' @examples
 #' library(ggplot2)
