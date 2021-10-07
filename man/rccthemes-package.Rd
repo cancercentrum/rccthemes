@@ -6,9 +6,7 @@
 \alias{rccthemes-package}
 \title{rccthemes: RCC Themes, Scales and Geoms for 'ggplot2'}
 \description{
-The longterm goal is to provide 'ggplot2' themes, scales and geoms
-    that adhere to the graphic rules at Regional Cancer Centers (RCC) in Sweden.
-    Currently, RCC scales are implemented.
+The longterm goal is to provide 'ggplot2' themes, scales and geoms that adhere to the graphic rules at Regional Cancer Centers (RCC) in Sweden. Currently, RCC scales are implemented.
 }
 \seealso{
 Useful links:
@@ -20,7 +18,7 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: John Lövrot \email{john.lovrot@sll.se} (\href{https://orcid.org/0000-0002-9339-8059}{ORCID})
+\strong{Maintainer}: John Lövrot \email{john.lovrot@regionstockholm.se} (\href{https://orcid.org/0000-0002-9339-8059}{ORCID})
 
 Other contributors:
 \itemize{
