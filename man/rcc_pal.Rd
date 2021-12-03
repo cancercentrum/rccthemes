@@ -19,3 +19,6 @@ library(scales)
 library(rccthemes)
 show_col(rcc_pal()(12))
 }
+\references{
+\url{https://bitbucket.org/cancercentrum/rccshiny/src/1.10.0/R/rcc2PlotLine.R#lines-120}
+}

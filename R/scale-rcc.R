@@ -11,7 +11,7 @@
 #'   control name, limits, breaks, labels and so forth.
 #' @family colour scales
 #' @rdname scale_rcc
-# @references <https://bitbucket.org/cancercentrum/rccshiny/src/1.7.1/R/rcc2PlotLine.R#lines-120>
+#' @references <https://bitbucket.org/cancercentrum/rccshiny/src/1.10.0/R/rcc2PlotLine.R#lines-120>
 #' @export
 #' @examples
 #' library(ggplot2)

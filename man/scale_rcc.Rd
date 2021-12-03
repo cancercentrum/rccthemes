@@ -50,4 +50,7 @@ g <- ggplot(mpg, aes(x = class, fill = drv)) +
 g + scale_fill_rcc()
 g + scale_fill_rcc(direction = -1)
 }
+\references{
+\url{https://bitbucket.org/cancercentrum/rccshiny/src/1.10.0/R/rcc2PlotLine.R#lines-120}
+}
 \concept{colour scales}
