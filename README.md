@@ -1,11 +1,6 @@
+# rccthemes
 
-<!-- README.md is generated from README.Rmd. Please edit that file. -->
-
-rccthemes
-=========
-
-[![Travis build
-status](https://travis-ci.org/oc1lojo/rccthemes.svg?branch=master)](https://travis-ci.org/oc1lojo/rccthemes)
+[![R-CMD-check](https://github.com/oc1lojo/rccthemes/workflows/R-CMD-check/badge.svg)](https://github.com/oc1lojo/rccthemes/actions)
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/qgkdgjy8rc8e60x7/branch/master?svg=true)](https://ci.appveyor.com/project/oc1lojo/rccthemes/branch/master)
 
@@ -17,26 +12,28 @@ adhere to the graphic rules at [Regional Cancer Centers
 (RCC)](https://www.cancercentrum.se) in Sweden. Currently, RCC scales
 are implemented.
 
-Installation
-------------
+## Installation
 
-    if (!requireNamespace("remotes"))
-      install.packages("remotes")
+``` r
+if (!requireNamespace("remotes"))
+  install.packages("remotes")
 
-    remotes::install_bitbucket("cancercentrum/rccthemes")
-    # remotes::install_bitbucket("cancercentrum/rccthemes", build_vignettes = TRUE) # also vignette
+remotes::install_bitbucket("cancercentrum/rccthemes")
+# remotes::install_bitbucket("cancercentrum/rccthemes", build_vignettes = TRUE) # also vignette
+```
 
-Usage
------
+## Usage
 
-    library(ggplot2)
-    library(rccthemes)
+``` r
+library(ggplot2)
+library(rccthemes)
 
-    theme_set(theme_minimal()) # ggplot2::theme_minimal, not an RCC theme
-    scale_colour_discrete <- scale_colour_rcc
-    scale_fill_discrete <- scale_fill_rcc
+theme_set(ggplot2::theme_minimal())
+scale_colour_discrete <- scale_colour_rcc
+scale_fill_discrete <- scale_fill_rcc
 
-    ggplot(mpg, aes(displ, hwy, colour = class)) +
-      geom_point()
+ggplot(mpg, aes(displ, hwy, colour = class)) +
+  geom_point()
+```
 
-![](man/figures/README-example-1.png)<!-- -->
+![](man/figures/README-example-1.png)

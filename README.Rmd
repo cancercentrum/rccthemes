@@ -1,8 +1,8 @@
 ---
-output: github_document
+output:
+  md_document:
+    variant: markdown
 ---
-
-<!-- README.md is generated from README.Rmd. Please edit that file. -->
 
 ```{r, echo = FALSE}
 knitr::opts_chunk$set(
@@ -14,7 +14,7 @@ knitr::opts_chunk$set(
 
 # rccthemes
 
-[![Travis build status](https://travis-ci.org/oc1lojo/rccthemes.svg?branch=master)](https://travis-ci.org/oc1lojo/rccthemes)
+[![R-CMD-check](https://github.com/oc1lojo/rccthemes/workflows/R-CMD-check/badge.svg)](https://github.com/oc1lojo/rccthemes/actions)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/qgkdgjy8rc8e60x7/branch/master?svg=true)](https://ci.appveyor.com/project/oc1lojo/rccthemes/branch/master)
 
 RCC themes, scales and geoms for [ggplot2](https://ggplot2.tidyverse.org).
@@ -38,7 +38,7 @@ remotes::install_bitbucket("cancercentrum/rccthemes")
 library(ggplot2)
 library(rccthemes)
 
-theme_set(theme_minimal()) # ggplot2::theme_minimal, not an RCC theme
+theme_set(ggplot2::theme_minimal())
 scale_colour_discrete <- scale_colour_rcc
 scale_fill_discrete <- scale_fill_rcc
 
