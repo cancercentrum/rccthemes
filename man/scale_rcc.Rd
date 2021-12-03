@@ -36,7 +36,7 @@ Colour scale for categorical variables based on RCC graphic profile.
 \examples{
 library(ggplot2)
 library(rccthemes)
-theme_set(theme_minimal())
+theme_set(ggplot2::theme_minimal())
 
 # Example of using the RCC scale for the esthetic colour
 ggplot(mpg, aes(x = displ, y = hwy, colour = class)) +

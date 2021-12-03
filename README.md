@@ -14,7 +14,7 @@ are implemented.
 
 ## Installation
 
-``` {.r}
+``` r
 if (!requireNamespace("remotes"))
   install.packages("remotes")
 
@@ -24,11 +24,11 @@ remotes::install_bitbucket("cancercentrum/rccthemes")
 
 ## Usage
 
-``` {.r}
+``` r
 library(ggplot2)
 library(rccthemes)
 
-theme_set(theme_minimal()) # ggplot2::theme_minimal, not an RCC theme
+theme_set(ggplot2::theme_minimal())
 scale_colour_discrete <- scale_colour_rcc
 scale_fill_discrete <- scale_fill_rcc
 
