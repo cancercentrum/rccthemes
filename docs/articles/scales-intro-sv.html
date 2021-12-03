@@ -31,7 +31,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">rccthemes</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.3.4.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.4.0</span>
       </span>
     </div>
 
@@ -69,7 +69,7 @@
 
       
 
-      </header><script src="scales-intro-sv_files/header-attrs-2.6/header-attrs.js"></script><div class="row">
+      </header><script src="scales-intro-sv_files/header-attrs-2.11/header-attrs.js"></script><div class="row">
   <div class="col-md-9 contents">
     <div class="page-header toc-ignore">
       <h1 data-toc-skip>RCC grafiska skalor - en kort introduktion</h1>
@@ -91,10 +91,9 @@
 <a href="#rcc-paletten" class="anchor"></a>RCC-paletten</h1>
 <p>Visa färgerna i paletten.</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org//reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="../reference/rcc_pal.html">rcc_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">12</span><span class="op">)</span><span class="op">)</span></code></pre></div>
+<code class="sourceCode R"><span class="fu">scales</span><span class="fu">::</span><span class="fu"><a href="https://scales.r-lib.org/reference/show_col.html">show_col</a></span><span class="op">(</span><span class="fu"><a href="../reference/rcc_pal.html">rcc_pal</a></span><span class="op">(</span><span class="op">)</span><span class="op">(</span><span class="fl">12</span><span class="op">)</span><span class="op">)</span></code></pre></div>
 <p><img src="scales-intro-sv_files/figure-html/unnamed-chunk-2-1.png" width="576" style="display: block; margin: auto;"></p>
-<!-- Jfr -->
-<!-- https://bitbucket.org/cancercentrum/rccshiny/src/1.7.1/R/rcc2PlotLine.R#lines-120 -->
+<p>Jfr <a href="https://bitbucket.org/cancercentrum/rccshiny/src/1.10.0/R/rcc2PlotLine.R#lines-120" class="uri">https://bitbucket.org/cancercentrum/rccshiny/src/1.10.0/R/rcc2PlotLine.R#lines-120</a></p>
 </div>
 <div id="rcc-grafiska-skalor" class="section level1">
 <h1 class="hasAnchor">
@@ -140,7 +139,7 @@
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://ggplot2.tidyverse.org">ggplot2</a></span><span class="op">)</span>
 <span class="kw"><a href="https://rdrr.io/r/base/library.html">library</a></span><span class="op">(</span><span class="va"><a href="https://cancercentrum.bitbucket.io/rccthemes/">rccthemes</a></span><span class="op">)</span>
 
-<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme_get.html">theme_set</a></span><span class="op">(</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_minimal</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span> <span class="co"># ggplot2::theme_minimal, inte ett RCC-tema</span>
+<span class="fu"><a href="https://ggplot2.tidyverse.org/reference/theme_get.html">theme_set</a></span><span class="op">(</span><span class="fu">ggplot2</span><span class="fu">::</span><span class="fu"><a href="https://ggplot2.tidyverse.org/reference/ggtheme.html">theme_minimal</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span>
 <span class="va">scale_colour_discrete</span> <span class="op">&lt;-</span> <span class="va">scale_colour_rcc</span>
 <span class="va">scale_fill_discrete</span> <span class="op">&lt;-</span> <span class="va">scale_fill_rcc</span></code></pre></div>
 <div class="sourceCode" id="cb9"><pre class="downlit sourceCode r">
