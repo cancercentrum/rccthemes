@@ -1,6 +1,6 @@
 # rccthemes
 
-[![R-CMD-check](https://github.com/oc1lojo/rccthemes/workflows/R-CMD-check/badge.svg)](https://github.com/oc1lojo/rccthemes/actions)
+[![R-CMD-check](https://github.com/cancercentrum/rccthemes/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/cancercentrum/rccthemes/actions/workflows/R-CMD-check.yaml)
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/qgkdgjy8rc8e60x7/branch/master?svg=true)](https://ci.appveyor.com/project/oc1lojo/rccthemes/branch/master)
 
